@@ -234,72 +234,72 @@ while True:
                 x333=print(name,'擔心成績嗎!沒事的!我們一起來找問題吧')
                 while True:
                     x3=input('請從ABC隨機選一
-if topic=='D':
-        print(name,'喔~原來你想要占卜你的命運嗎!')        
-        while True:
-            z = input('請選擇你想要的方式!,A.卜卦 B.籤筒 C.塔羅牌  L.結束')
-            if z=='A':
-                z111=print(name,'原來你想要卜卦阿!我們就來卜卦吧')
-                while True:
-                    z1=input('請從ABC隨機選一個輸入,若要離開請輸入L:')
-                    if z1=='A':
-                        z11=print(name,'卜卦結果是!是火上地下的晉卦呢!看來將會有進步唷!')
-                    break
-                    if z1=='B':
-                        z11=print(name,'卜卦結果是!是上雷下火的豐卦呢!看來將會所豐收唷!')
-                        break
-                    if z1=='C':
-                        z11=print(name,'卜卦結果是!是上火下山的旅卦呢!看來將會有事情需要多加探索唷!')
-                        break
-                    if z1=='L':
-                        z11=print('希望有機會再聊')
-                         break
-                    if z1!='A' and z1!='B' and z1!='C'and z1!='L':
-                        z11=print('你只有ABC三個可以抽或者選擇L離開!!請不要超過範圍!!')
-                    if z11=='你只有ABC三個可以抽!!請不要超過範圍!!':
-                        continue                    
+#if topic=='D':
+        #print(name,'喔~原來你想要占卜你的命運嗎!')        
+        #while True:
+            #z = input('請選擇你想要的方式!,A.卜卦 B.籤筒 C.塔羅牌  L.結束')
+            #if z=='A':
+                #z111=print(name,'原來你想要卜卦阿!我們就來卜卦吧')
+                #while True:
+                    #z1=input('請從ABC隨機選一個輸入,若要離開請輸入L:')
+                    #if z1=='A':
+                        #z11=print(name,'卜卦結果是!是火上地下的晉卦呢!看來將會有進步唷!')
+                    #break
+                   # if z1=='B':
+                        #z11=print(name,'卜卦結果是!是上雷下火的豐卦呢!看來將會所豐收唷!')
+                       # break
+                   # if z1=='C':
+                        #z11=print(name,'卜卦結果是!是上火下山的旅卦呢!看來將會有事情需要多加探索唷!')
+                       # break
+                   # if z1=='L':
+                       # z11=print('希望有機會再聊')
+                         #break
+                    #if z1!='A' and z1!='B' and z1!='C'and z1!='L':
+                        #z11=print('你只有ABC三個可以抽或者選擇L離開!!請不要超過範圍!!')
+                    #if z11=='你只有ABC三個可以抽!!請不要超過範圍!!':
+                        #continue                    
                 
-            if z=='B':
-                z222=print(name,'籤筒阿!那我只負責抽唷!解籤的話請你自己上網查囉~')
-                while True:
-                    z2=input('請從ABC隨機選一個輸入,若要離開請輸入L:')
-                      if z2=='A':
-                        z22=print(name,'第四十四吉，盤中黑白子，一著要先機，天龍降甘澤，洗出舊根基')
-                        break
-                    if z2=='B':
-                        z11=print(name,'第六十六凶，水滯少波濤，飛鴻落羽毛，重憂心緒亂，閑事惹風騷')
-                        break
-                    if z2=='C':
-                        z22=print(name, '第三十四吉，臘木春將至，芳菲喜再新，鯤鯨興巨浪，舉鉤祿為真')
-                           break
-                    if z2=='L':
-                        z22=print(name,'希望有機會再聊')
-                        break
-                    if z2!='A' and z2!='B' and z2!='C'and z2!='L':
-                        z22=print('你只有ABC三個籤可以抽!!請不要超過範圍!!')
-                    if z22=='你只有ABC三個籤可以抽!!請不要超過範圍!!':
-                        continue                    
+            #if z=='B':
+               # z222=print(name,'籤筒阿!那我只負責抽唷!解籤的話請你自己上網查囉~')
+                #while True:
+                    #z2=input('請從ABC隨機選一個輸入,若要離開請輸入L:')
+                     # if z2=='A':
+                       # z22=print(name,'第四十四吉，盤中黑白子，一著要先機，天龍降甘澤，洗出舊根基')
+                        #break
+                    #if z2=='B':
+                       # z11=print(name,'第六十六凶，水滯少波濤，飛鴻落羽毛，重憂心緒亂，閑事惹風騷')
+                        #break
+                    #if z2=='C':
+                        #z22=print(name, '第三十四吉，臘木春將至，芳菲喜再新，鯤鯨興巨浪，舉鉤祿為真')
+                           #break
+                    #if z2=='L':
+                        #z22=print(name,'希望有機會再聊')
+                        #break
+                    #if z2!='A' and z2!='B' and z2!='C'and z2!='L':
+                        #z22=print('你只有ABC三個籤可以抽!!請不要超過範圍!!')
+                    #if z22=='你只有ABC三個籤可以抽!!請不要超過範圍!!':
+                        #continue                    
                 
-            if z=='C':
-                z333=print(name,'塔羅牌嗎!那就請你在心裡默想吧!抽到後可以上網查詢意思唷')
-                while True:
-                    z3=input('請從ABC隨機選一個輸入,若要離開請輸入L:')
-                    if z3=='A':
-                        z33=print(name,'劍八正，這代表甚麼呢?')
-                        break
-                    if z3=='B':
-                        h33=print(name,'杯一正，這代表甚麼呢?')
-                        break
-                    if z3=='C':
-                        h33=print(name,'杖五正，這又代表甚麼呢?')
-                                break
-                    if z3=='L':
-                        h33=print(name,'希望有機會再聊')
-                        break
-                    if z3!='A' and z3!='B' and z3!='C'and z3!='L':
-                        h33=print('你只有ABC三張牌可以抽!!請不要超過範圍!!')
-                    if z33=='你只有ABC三張牌可以抽!!請不要超過範圍!!':
-                        continue
-                           if z=='L':
-                z5l=print(name,'希望有機會再聊')
-                break
+            #if z=='C':
+                #z333=print(name,'塔羅牌嗎!那就請你在心裡默想吧!抽到後可以上網查詢意思唷')
+                #while True:
+                    #z3=input('請從ABC隨機選一個輸入,若要離開請輸入L:')
+                    #if z3=='A':
+                        #z33=print(name,'劍八正，這代表甚麼呢?')
+                        #break
+                    #if z3=='B':
+                        #h33=print(name,'杯一正，這代表甚麼呢?')
+                        #break
+                    #if z3=='C':
+                        #h33=print(name,'杖五正，這又代表甚麼呢?')
+                                #break
+                    #if z3=='L':
+                        #h33=print(name,'希望有機會再聊')
+                        #break
+                    #if z3!='A' and z3!='B' and z3!='C'and z3!='L':
+                        #h33=print('你只有ABC三張牌可以抽!!請不要超過範圍!!')
+                    #if z33=='你只有ABC三張牌可以抽!!請不要超過範圍!!':
+                        #continue
+                           #if z=='L':
+                #z5l=print(name,'希望有機會再聊')
+                #break
